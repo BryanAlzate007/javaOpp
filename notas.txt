@@ -1,0 +1,35 @@
+atributos son las caractaristicas a los objetos sustantivos
+
+
+los objetos tienen comportamientos operaciones y acciones que pueden ser agregadas
+estos comportamientos siempre son verbos 
+ejem.
+login()
+logout()
+
+
+Clases 
+Son los modelos sobre los cuales contruiremos los objetos 
+abstaccion  analizar objeto para generar molde 
+
+cada clase debe de tener su archivo independiente
+pude exister clases en un mismo archivo son clases anidadas 
+
+UML
+ _________
+|Person   |
+|_________|
+|name     |
+|_________|
+|walk()   |
+|_________|
+
+
+Modularidad
+dividir sistemas en subsistemas 
++ Reutilizar
++ Evitar colapsos
++ Mantenible
++ Legibilidad
++ Resolución rapida de problemas
+
