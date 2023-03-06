@@ -33,3 +33,15 @@ dividir sistemas en subsistemas
 + Legibilidad
 + Resolución rapida de problemas
 
+para inicializar un objeto vasta con poner el nombre del objeto = new objecto();
+
+ejem.
+
+myDoctor = new Doctor();
+
+
+el metodo constructor es el nombre despues de la palabra reservada new 
+ejem.
+Doctor();
+se genera un medotodo nuevo este nos ayuda a crear nuevas instancias debe de tener el mismo nombre de la clase de la cual se esta inicializando 
+puede tener 0 o mas argumentos dentro del parentecis 
