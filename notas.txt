@@ -45,3 +45,19 @@ ejem.
 Doctor();
 se genera un medotodo nuevo este nos ayuda a crear nuevas instancias debe de tener el mismo nombre de la clase de la cual se esta inicializando 
 puede tener 0 o mas argumentos dentro del parentecis 
+
+  Doctor                    myDoctor;
+    |                          |
+tipo de objecto        Nombre del objecto
+
+
+Declarando e instanciando un objeto
+
+Doctor myDoctor = new Doctor();
+        |               |
+ Declarando el     inicializando/
+    objeto          Creando el objeto
+
+
+    
+
