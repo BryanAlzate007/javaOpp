@@ -59,5 +59,7 @@ Doctor myDoctor = new Doctor();
     objeto          Creando el objeto
 
 
-    
+Accesando a metodos 
+
+Math.PI 
 

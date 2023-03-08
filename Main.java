@@ -4,5 +4,11 @@ public class Main {
            Doctor myDoctor = new Doctor();
            myDoctor.name = "Bryan Alexander";
            myDoctor.showName();
+           myDoctor.showId();
+           System.out.println(Doctor.id);
+
+           Doctor myDoctorAnn = new Doctor();
+           myDoctor.showId();
+           System.out.println(Doctor.id);
     }
 }
