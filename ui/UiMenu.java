@@ -1,18 +1,22 @@
+package ui;
 import java.util.Scanner;
 
 public class UiMenu {
-        static void showMenu(){
-            System.out.println("Welcome to my Appintments");
-            System.out.println("Selecciona la opcion deseada");
 
-            int response = 0;
-            do {
-                System.out.println("1. Doctor");
-                System.out.println("1. Patient");
-                System.out.println("0. Salir");
+    public static String[] MONTHS = {"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
 
-                Scanner sc = new Scanner(System.in);
-                response = Integer.valueOf(sc.nextLine());
+    public static void showMenu(){
+        System.out.println("Welcome to my Appintments");
+        System.out.println("Selecciona la opcion deseada");
+
+        int response = 0;
+           do {
+               System.out.println("1. Doctor");
+               System.out.println("2. Patient");
+               System.out.println("0. Salir");
+
+               Scanner sc = new Scanner(System.in);
+               response = Integer.valueOf(sc.nextLine());
                 
 
                 switch (response){
@@ -29,7 +33,7 @@ public class UiMenu {
                 }
 
             }while (response != 0);
-        }   
+    }   
 
         static void showPatientMenu (){
             int response = 0;
@@ -46,10 +50,13 @@ public class UiMenu {
                 switch (response){
                     case 1:
                     System.out.println("::Book an appointment");
+                    for (int i = 1; i < 3; i++){
+                        System.out.println(i +". "+ MONTHS[i]);
+                    }
                     break;
                     case 2:
                     System.out.println("::My appointments");
-                    break:
+                    break;
                     case 0:
                     showMenu();
                     break;

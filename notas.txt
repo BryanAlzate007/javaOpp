@@ -63,3 +63,17 @@ Accesando a metodos
 
 Math.PI 
 
+Costantes:
+
+para declarar una variable constante en java se requiere la palaba reservada "Final" casi siempre se ve en static 
+
+Sobre carga:
+se puede cargar un metodo de nuevo con valiables diferentes o mayor cantidad de variables.
+
+
+
+sobrecarga de constructores 
+
+se inicializa el contructor enviando un parametro especifico de contruccion
+
+new contructor(name , lastName);
