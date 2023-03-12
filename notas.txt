@@ -77,3 +77,16 @@ sobrecarga de constructores
 se inicializa el contructor enviando un parametro especifico de contruccion
 
 new contructor(name , lastName);
+
+
+public       clase package subclase otros
+protected    clase package subclase
+default      clase package
+private      clase
+
+encapsulamiento de datos sirve para evitar que los atributos sean modificados por fuera de la clase 
+
+
+
+Getters y Setters
+leer/escribir especificamente los valores de las variables miembro
