@@ -89,4 +89,35 @@ encapsulamiento de datos sirve para evitar que los atributos sean modificados po
 
 
 Getters y Setters
-leer/escribir especificamente los valores de las variables miembro
+leer/escribir especificamente los valores de las variables miembro con esto se agrega valor a las variables privadas y se le asignan caracteristicas a cada variable restricciones
+y condiciones 
+
+Clases Wrapper/ Objeto primitivo
+
+    Byte
+    Short
+    Integer
+    Long 
+    Float
+    Double
+    Character
+    Boolean
+    String
+
+
+Variables vs objetos
+
+Stack memoria 
+variables primitivas se guarda el valor de la variable i = "0" solo se guarda en memoria el 0
+
+para los objetos se guarda la direccion de memoria donde se estan guardando los datos en el espacio de memoria heap se gusardan los datos de cada variable dentro de cada objeto 
+
+
+Clases anidadas
+clases helper
+agrupada por logica
+encapsuladas
+
+Clases estaticas anidadas 
+no se necesitan crear instancias para llamarlas.
+Solo se pueden llamar a los métodos estaticos.

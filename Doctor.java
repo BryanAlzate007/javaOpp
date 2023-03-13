@@ -1,7 +1,13 @@
 public class Doctor {
+    //Atributos
     static int id = 0;
-    String name;
-    String speciality;
+    private String name;
+    private String email;
+    private String speciality;
+
+    
+    
+
 
     Doctor(){
         System.out.println("Contruyendo el Objeto Doctor");
@@ -22,5 +28,11 @@ public class Doctor {
 
     public void showId(){
         System.out.println("ID Doctor:" + id);
+    }
+
+    public static class AvailableAppointment{
+        private int ad_availableAppointment;
+        private Date date;
+        private String time;
     }
 }
